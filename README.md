@@ -2,6 +2,8 @@
 
 UNKNOWN CEREMONY - 無名のための式典
 
+![cover](public/images/cover/unknown-ceremony.jpg)
+
 ## TABLE OF CONTENTS
 
 - [CONCEPT](#concept)
