@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 
 export const siteConfig = {
   name: 'UNKNOWN CEREMONY',
-  description: 'UNKNOWN CEREMONY - 無名のための式典',
+  description: 'UNKNOWN CEREMONY - 無名による式典',
 };
 
 export const pageMetadata: Record<string, Metadata> = {
   home: {
-    title: 'UNKNOWN CEREMONY - 無名のための式典',
+    title: 'UNKNOWN CEREMONY - 無名による式典',
     description: siteConfig.description,
     robots: {
       index: false,
