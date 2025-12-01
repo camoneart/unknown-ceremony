@@ -1,8 +1,37 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff;
+  --foreground: #000;
+  --button-selected-bg: #444;
+  --button-selected-icon: #fff;
+  --search-border: #f0f0f0;
+  --search-border-hover: #444;
+  --search-clear-bg: #fff;
+  --search-clear-bg-hover: #444;
+  --search-clear-text: #000;
+  --search-clear-text-hover: #fff;
+  --filter-button-hover-bg: #444;
+  --filter-button-hover-text: #fff;
+  --selection-bg: #e0e0e0;
+  --selection-text: #000;
+}
+
+.dark {
+  --background: #1a1a1a;
+  --foreground: #fff;
+  --button-selected-bg: #fff;
+  --button-selected-icon: #000;
+  --search-border: #444;
+  --search-border-hover: #fff;
+  --search-clear-bg: #1a1a1a;
+  --search-clear-bg-hover: #fff;
+  --search-clear-text: #fff;
+  --search-clear-text-hover: #000;
+  --filter-button-hover-bg: #fff;
+  --filter-button-hover-text: #000;
+  --selection-bg: #fff;
+  --selection-text: #000;
 }
 
 @theme inline {
@@ -10,13 +39,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
@@ -27,5 +49,5 @@ body {
   background: var(--background);
   font-family:
     'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
