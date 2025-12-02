@@ -2,7 +2,7 @@
 
 UNKNOWN CEREMONY - 無名による式典
 
-![cover](public/images/cover/unknown-ceremony.jpg)
+![cover](public/images/cover/unknown-ceremony-cover.jpg)
 
 ## TABLE OF CONTENTS
 
