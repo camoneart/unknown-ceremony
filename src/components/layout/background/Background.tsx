@@ -1,16 +1,15 @@
-import Image from 'next/image';
-
 const Background = () => {
   return (
     <div className="fixed inset-0 -z-10 h-full w-full overflow-hidden">
-      <Image
-        src="/images/cover/unknown-ceremony-cover.jpg"
-        alt="Unknown Ceremony Cover"
-        fill
-        className="object-cover"
-        priority
+      <video
+        src="/video/main-visual/unknown-ceremony.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="h-full w-full object-cover"
       />
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/50" />
     </div>
   );
 };
