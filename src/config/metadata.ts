@@ -34,4 +34,18 @@ export const pageMetadata: Record<string, Metadata> = {
       },
     },
   },
+  works: {
+    title: `WORKS – ${siteConfig.name}`,
+    description: 'すべての作品をご覧いただけます。',
+    robots: {
+      index: false,
+      follow: false,
+      nocache: true,
+      googleBot: {
+        index: false,
+        follow: false,
+        noimageindex: true,
+      },
+    },
+  }
 };
