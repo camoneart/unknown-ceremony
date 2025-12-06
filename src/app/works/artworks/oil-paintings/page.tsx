@@ -4,7 +4,7 @@ import { pageMetadata } from '@/config/metadata';
 
 export const metadata = pageMetadata.artworks;
 
-const ArtworksPage = () => {
+const OilPaintingsPage = () => {
   return (
     <div className="max-w-[1500px] w-full h-full overflow-y-auto mx-auto">
       <div className="pb-[20px] pt-[25px]">
@@ -12,16 +12,18 @@ const ArtworksPage = () => {
           className="text-[20px] tracking-widest text-center"
           style={{ textShadow: '0 0 10px rgba(255, 255, 255, 0.5)' }}
         >
-          ARTWORKS
+          OIL PAINTINGS
         </h1>
         <ArtworkCardContainer>
-          {artworks.map((art) => (
-            <ArtworkCard key={art.id} artwork={art} />
-          ))}
+          {artworks
+            .filter((art) => art.category === 'Oil painting')
+            .map((art) => (
+              <ArtworkCard key={art.id} artwork={art} />
+            ))}
         </ArtworkCardContainer>
       </div>
     </div>
   );
 };
 
-export default ArtworksPage;
+export default OilPaintingsPage;
