@@ -7,7 +7,7 @@ export const metadata = pageMetadata.artworks;
 const OilPaintingsPage = () => {
   return (
     <div className="max-w-[1500px] w-full h-full overflow-y-auto mx-auto">
-      <div className="pb-[20px] pt-[25px]">
+      <div className="pb-[20px] pt-[25px] grid gap-[25px]">
         <h1
           className="text-[20px] tracking-widest text-center"
           style={{ textShadow: '0 0 10px rgba(255, 255, 255, 0.5)' }}
