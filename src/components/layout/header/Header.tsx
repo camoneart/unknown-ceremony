@@ -33,7 +33,7 @@ const Header = () => {
       }`}
     >
       <div className="flex w-full flex-col items-center justify-center gap-[10px] py-[15px]">
-        <HeadingTag className="text-[28px] tracking-[0.2em]">
+        <HeadingTag className="text-[30px] tracking-[0.2em]">
           <Link
             href="/"
             className="grid place-items-center"
