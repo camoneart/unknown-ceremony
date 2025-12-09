@@ -16,7 +16,7 @@ export const ArtworkCard = ({ artwork }: ArtworkCardProps) => {
             src={artwork.imageUrl}
             alt={artwork.title}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-103"
+            className="object-cover transition-all duration-300"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
