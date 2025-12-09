@@ -4,7 +4,7 @@ type Props = {
 
 export const ArtworkCardContainer = ({ children }: Props) => {
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-[30px] pt-[25px]">
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-[30px]">
       {children}
     </div>
   );
