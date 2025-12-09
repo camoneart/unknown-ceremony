@@ -47,5 +47,47 @@ export const pageMetadata: Record<string, Metadata> = {
         noimageindex: true,
       },
     },
-  }
+  },
+  artworks: {
+    title: `ARTWORKS – ${siteConfig.name}`,
+    description: 'イラストの作品をご覧いただけます。',
+    robots: {
+      index: false,
+      follow: false,
+      nocache: true,
+      googleBot: {
+        index: false,
+        follow: false,
+        noimageindex: true,
+      },
+    },
+  },
+  bgm: {
+    title: `BGM – ${siteConfig.name}`,
+    description: '音楽の作品をご覧いただけます。',
+    robots: {
+      index: false,
+      follow: false,
+      nocache: true,
+      googleBot: {
+        index: false,
+        follow: false,
+        noimageindex: true,
+      },
+    },
+  },
+  movies: {
+    title: `MOVIES – ${siteConfig.name}`,
+    description: '映像作品をご覧いただけます。',
+    robots: {
+      index: false,
+      follow: false,
+      nocache: true,
+      googleBot: {
+        index: false,
+        follow: false,
+        noimageindex: true,
+      },
+    },
+  },
 };
